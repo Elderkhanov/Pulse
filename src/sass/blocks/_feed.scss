@@ -1,0 +1,25 @@
+.feed {
+    min-height: 680px;
+    padding: 100px 0 106px 0;
+    background: url('../img/bg/feed-bg.jpg') center center/cover no-repeat;
+    &__descr {
+        margin-top: 8px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 36px;
+        input {
+            padding: 0 21px;
+            width: 303px;
+            height: 54px;
+            flex-shrink: 0;
+            border-radius: 5px;
+        }
+    }
+}

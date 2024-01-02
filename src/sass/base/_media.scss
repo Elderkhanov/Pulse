@@ -1,0 +1,106 @@
+
+// -------------------------------- 1200px
+
+@media (max-width: 1200px) {
+
+}
+
+
+// --------------------------------- 991px
+
+@media (max-width: 992px) {
+
+}
+
+
+// ---------------------------------- 768px
+
+@media (max-width: 768px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .title-feed {
+        text-align: center;
+    }
+    .feed {
+        &__descr {
+            margin: 0 auto;
+            margin-top: 10px;
+            text-align: center;
+        }
+        &__form {
+            align-items: center;
+            input {
+                width: 500px;
+                height: 69px;
+            }
+        }
+    }
+    .btn-feed {
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+        height: 69px;
+        margin-top: 25px;
+    }
+}
+
+
+// ---------------------------------- 576px
+
+@media (max-width: 576px) {
+    .header {
+        &__call {
+            display: none;
+        }
+        &__logo {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .main {
+        padding-bottom: 50px;
+        &__wrapper {
+            margin-top: 70px;
+            align-items: center;
+            text-align: center;
+            &-descr {
+                font-size: 20px;
+                margin-top: 20px;
+            }
+        }
+        &__h1 {
+            line-height: 51px;
+        }
+        &__h2 {
+            line-height: 36px;
+        }
+    }
+    .btn-big {
+        width: 340px;
+        height: 65px;
+        font-size: 20px;
+    }
+    .advantages {
+        &__block-title {
+            font-size: 25px;
+        }
+        &__block-descr  {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .feed {
+        &__form {
+            input {
+               width: 100%; 
+            }
+        }
+    }
+    .btn-feed {
+        width: 100%;
+    }
+
+}

@@ -1,4 +1,7 @@
+@import 'libs/bootstrap-reboot.min';
 
+@import 'base/media';
+@import 'base/variables';
 
 
 * {
@@ -6,8 +9,20 @@
     font-display: swap;
 }
 
-.container {
-    max-width: 950px;
-    margin: 0 auto;
-    padding: 0 ;
+h1,h2,h3,h4 {
+    margin: 0;
 }
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+
+@import 'blocks/main';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/feed';
+@import 'base/media';
