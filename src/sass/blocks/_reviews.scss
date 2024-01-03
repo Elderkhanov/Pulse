@@ -1,0 +1,36 @@
+.reviews {
+    padding-bottom: 40px;
+    &__wrapper {
+        margin-top: 60px;
+    }
+    &__block {
+        display: flex;
+        &:not(:last-child) {
+            margin-bottom: 60px;
+        }
+        &-photo {
+            margin-right: 60px;
+        }
+        &-info {
+            // width: 680px;
+            .name {
+                color: #0D0D0D;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 18px; 
+            }
+            .marathons {
+                color: #646464;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .descr {
+                margin-top: 10px;
+                color: #0D0D0D;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: normal;
+            }
+        }
+    }
+}

@@ -151,5 +151,29 @@
             font-size: 18px;
         }
     }
-
+    .reviews {
+        &__block {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            &-photo {
+                margin-right: 0;
+            }
+            &-info {
+                margin-top: 15px;
+                align-items: center;
+                text-align: center;
+                .name {
+                    font-size: 22px;
+                }
+                .marathons {
+                    margin-top: 5px;
+                    font-size: 19px;
+                }
+                .descr {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }
