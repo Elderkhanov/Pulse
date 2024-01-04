@@ -1,0 +1,61 @@
+.footer {
+    position: relative;
+    min-height: 630px;
+    &__info {
+        position: absolute;
+        padding: 50px 0 56px 0;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background: $main-color;
+        &-addr {
+            color: #FFF;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px; 
+        }
+        &-phone {
+            text-align: center;
+            margin-top: 36px;
+            a {
+                color: #FFF;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 20px; 
+                text-decoration: none;
+            }
+
+        }
+        &-social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 36px;
+            gap: 27px;
+            cursor: pointer;
+            
+            &_link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 53px;
+                height: 52px;
+                border: 2px solid #fff;
+                border-radius: 100%;
+                transition: .5s all;
+                &:hover {
+                    background-color: #fff;
+                    fill: $main-color;
+                    transition: .5s all;
+                    path {
+                        fill: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}
