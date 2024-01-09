@@ -116,6 +116,9 @@
             font-weight: 300;
             line-height: 25px;
             list-style-type: none;
+            ul {
+                list-style-type: none;
+            }
             transition: 0.5s all;
             &-active {
                 left: 22px;

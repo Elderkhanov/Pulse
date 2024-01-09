@@ -68,6 +68,11 @@
             height: 220px;
         }
     }
+    .modal {
+        input {
+            width: 100%;
+        }
+    }
 }
 
 
@@ -181,6 +186,22 @@
                     font-size: 20px;
                 }
             }
+        }
+    }
+    .modal {
+        width: 346px;
+        &__close {
+            top: -17px;
+            right: 2px;
+            font-size: 46px;
+        }
+        &__subtitle {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        &__descr {
+            font-size: 16px;
+            line-height: 16px;
         }
     }
 }
